@@ -1,0 +1,15 @@
+Vue.component('recipes',{
+    template:`<div>
+                <navBar></navBar>
+                <heroRECIPES></heroRECIPES>
+                <breakfastRecipes></breakfastRecipes>
+                <footerPart></footerPart>
+                </div>
+    `,
+    components:{
+        navBar,
+        heroRECIPES,
+        breakfastRecipes,
+        footerPart
+    }
+})
